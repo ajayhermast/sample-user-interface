@@ -1,0 +1,119 @@
+.bottom {
+    background: #141414;
+    width: 100%;
+    height: 99vh;
+    color: #f1f1f1;
+    display: flex;
+    position: relative;
+}
+
+.first {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.heading {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.text {
+    font-size: .9rem;
+    margin-top: 1.5rem;
+}
+
+input {
+    display: block;
+    margin-top: 1.5rem;
+    background: none;
+    border: none;
+    outline: none;
+    width: 400px;
+    border-bottom: 2px solid #f1f1f1;
+    caret-color: #f1f1f1;
+    color: #f1f1f1;
+}
+
+input::placeholder {
+    color: #f1f1f1;
+    opacity: .5;
+}
+
+button {
+    margin-top: 1.5rem;
+    border: none;
+    background: none;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #c22127;
+    border-radius: 25px;
+    color: #f1f1f1;
+    font-size: 10px;
+}
+
+.city {
+    margin-top: 1.5rem;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.mail img {
+    margin-left: 1rem;
+}
+
+.footer {
+    position: absolute;
+    font-size: 10px;
+    bottom: 8%;
+}
+
+
+.second {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 9rem;
+    font-size: 10px;
+}
+
+.title {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.home {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.items {
+    margin-bottom: .5rem;
+}
+
+.last {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100px;
+}
+
+.ref {
+    color: #f1f1f1;
+    text-decoration: none;
+    position: absolute;
+    bottom: 8%;
+    right: 15%;
+}
+
